@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FA4A0BC92D8B55B700A57D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4A0BB02D8B55B600A57D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4A0BB72D8B55B600A57D2D;
+			remoteInfo = "Sat Game Challenge";
+		};
+		FA4A0BD32D8B55B700A57D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4A0BB02D8B55B600A57D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4A0BB72D8B55B600A57D2D;
+			remoteInfo = "Sat Game Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA4A0BB82D8B55B600A57D2D /* Sat Game Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sat Game Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A0BC82D8B55B700A57D2D /* Sat Game ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sat Game ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A0BD22D8B55B700A57D2D /* Sat Game ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sat Game ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA4A0BBA2D8B55B600A57D2D /* Sat Game Challenge */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sat Game Challenge";
+			sourceTree = "<group>";
+		};
+		FA4A0BCB2D8B55B700A57D2D /* Sat Game ChallengeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sat Game ChallengeTests";
+			sourceTree = "<group>";
+		};
+		FA4A0BD52D8B55B700A57D2D /* Sat Game ChallengeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sat Game ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4A0BB52D8B55B600A57D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4A0BC52D8B55B700A57D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4A0BCF2D8B55B700A57D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA4A0BAF2D8B55B600A57D2D = {
+			isa = PBXGroup;
+			children = (
+				FA4A0BBA2D8B55B600A57D2D /* Sat Game Challenge */,
+				FA4A0BCB2D8B55B700A57D2D /* Sat Game ChallengeTests */,
+				FA4A0BD52D8B55B700A57D2D /* Sat Game ChallengeUITests */,
+				FA4A0BB92D8B55B600A57D2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4A0BB92D8B55B600A57D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4A0BB82D8B55B600A57D2D /* Sat Game Challenge.app */,
+				FA4A0BC82D8B55B700A57D2D /* Sat Game ChallengeTests.xctest */,
+				FA4A0BD22D8B55B700A57D2D /* Sat Game ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4A0BB72D8B55B600A57D2D /* Sat Game Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4A0BDC2D8B55B700A57D2D /* Build configuration list for PBXNativeTarget "Sat Game Challenge" */;
+			buildPhases = (
+				FA4A0BB42D8B55B600A57D2D /* Sources */,
+				FA4A0BB52D8B55B600A57D2D /* Frameworks */,
+				FA4A0BB62D8B55B600A57D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA4A0BBA2D8B55B600A57D2D /* Sat Game Challenge */,
+			);
+			name = "Sat Game Challenge";
+			packageProductDependencies = (
+			);
+			productName = "Sat Game Challenge";
+			productReference = FA4A0BB82D8B55B600A57D2D /* Sat Game Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA4A0BC72D8B55B700A57D2D /* Sat Game ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4A0BDF2D8B55B700A57D2D /* Build configuration list for PBXNativeTarget "Sat Game ChallengeTests" */;
+			buildPhases = (
+				FA4A0BC42D8B55B700A57D2D /* Sources */,
+				FA4A0BC52D8B55B700A57D2D /* Frameworks */,
+				FA4A0BC62D8B55B700A57D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4A0BCA2D8B55B700A57D2D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA4A0BCB2D8B55B700A57D2D /* Sat Game ChallengeTests */,
+			);
+			name = "Sat Game ChallengeTests";
+			packageProductDependencies = (
+			);
+			productName = "Sat Game ChallengeTests";
+			productReference = FA4A0BC82D8B55B700A57D2D /* Sat Game ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA4A0BD12D8B55B700A57D2D /* Sat Game ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4A0BE22D8B55B700A57D2D /* Build configuration list for PBXNativeTarget "Sat Game ChallengeUITests" */;
+			buildPhases = (
+				FA4A0BCE2D8B55B700A57D2D /* Sources */,
+				FA4A0BCF2D8B55B700A57D2D /* Frameworks */,
+				FA4A0BD02D8B55B700A57D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4A0BD42D8B55B700A57D2D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA4A0BD52D8B55B700A57D2D /* Sat Game ChallengeUITests */,
+			);
+			name = "Sat Game ChallengeUITests";
+			packageProductDependencies = (
+			);
+			productName = "Sat Game ChallengeUITests";
+			productReference = FA4A0BD22D8B55B700A57D2D /* Sat Game ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4A0BB02D8B55B600A57D2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					FA4A0BB72D8B55B600A57D2D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					FA4A0BC72D8B55B700A57D2D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = FA4A0BB72D8B55B600A57D2D;
+					};
+					FA4A0BD12D8B55B700A57D2D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = FA4A0BB72D8B55B600A57D2D;
+					};
+				};
+			};
+			buildConfigurationList = FA4A0BB32D8B55B600A57D2D /* Build configuration list for PBXProject "Sat Game Challenge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA4A0BAF2D8B55B600A57D2D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA4A0BB92D8B55B600A57D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4A0BB72D8B55B600A57D2D /* Sat Game Challenge */,
+				FA4A0BC72D8B55B700A57D2D /* Sat Game ChallengeTests */,
+				FA4A0BD12D8B55B700A57D2D /* Sat Game ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4A0BB62D8B55B600A57D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4A0BC62D8B55B700A57D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4A0BD02D8B55B700A57D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4A0BB42D8B55B600A57D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4A0BC42D8B55B700A57D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4A0BCE2D8B55B700A57D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA4A0BCA2D8B55B700A57D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4A0BB72D8B55B600A57D2D /* Sat Game Challenge */;
+			targetProxy = FA4A0BC92D8B55B700A57D2D /* PBXContainerItemProxy */;
+		};
+		FA4A0BD42D8B55B700A57D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4A0BB72D8B55B600A57D2D /* Sat Game Challenge */;
+			targetProxy = FA4A0BD32D8B55B700A57D2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA4A0BDA2D8B55B700A57D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA4A0BDB2D8B55B700A57D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA4A0BDD2D8B55B700A57D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sat Game Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 679S79R93F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cuba-devs.Sat-Game-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA4A0BDE2D8B55B700A57D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sat Game Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 679S79R93F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cuba-devs.Sat-Game-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA4A0BE02D8B55B700A57D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 679S79R93F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cuba-devs.Sat-Game-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sat Game Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sat Game Challenge";
+			};
+			name = Debug;
+		};
+		FA4A0BE12D8B55B700A57D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 679S79R93F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cuba-devs.Sat-Game-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sat Game Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sat Game Challenge";
+			};
+			name = Release;
+		};
+		FA4A0BE32D8B55B700A57D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 679S79R93F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cuba-devs.Sat-Game-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sat Game Challenge";
+			};
+			name = Debug;
+		};
+		FA4A0BE42D8B55B700A57D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 679S79R93F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cuba-devs.Sat-Game-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sat Game Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4A0BB32D8B55B600A57D2D /* Build configuration list for PBXProject "Sat Game Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4A0BDA2D8B55B700A57D2D /* Debug */,
+				FA4A0BDB2D8B55B700A57D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4A0BDC2D8B55B700A57D2D /* Build configuration list for PBXNativeTarget "Sat Game Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4A0BDD2D8B55B700A57D2D /* Debug */,
+				FA4A0BDE2D8B55B700A57D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4A0BDF2D8B55B700A57D2D /* Build configuration list for PBXNativeTarget "Sat Game ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4A0BE02D8B55B700A57D2D /* Debug */,
+				FA4A0BE12D8B55B700A57D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4A0BE22D8B55B700A57D2D /* Build configuration list for PBXNativeTarget "Sat Game ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4A0BE32D8B55B700A57D2D /* Debug */,
+				FA4A0BE42D8B55B700A57D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA4A0BB02D8B55B600A57D2D /* Project object */;
+}
