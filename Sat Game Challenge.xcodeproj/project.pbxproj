@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FA4A0BE82D8B562100A57D2D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FA4A0BE72D8B562100A57D2D /* FirebaseDatabase */; };
+		FA4A0BEA2D8B562800A57D2D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FA4A0BE92D8B562800A57D2D /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FA4A0BC92D8B55B700A57D2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4A0BEA2D8B562800A57D2D /* FirebaseMessaging in Frameworks */,
+				FA4A0BE82D8B562100A57D2D /* FirebaseDatabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,7 @@
 				FA4A0BBA2D8B55B600A57D2D /* Sat Game Challenge */,
 				FA4A0BCB2D8B55B700A57D2D /* Sat Game ChallengeTests */,
 				FA4A0BD52D8B55B700A57D2D /* Sat Game ChallengeUITests */,
+				FA4A0BE62D8B562100A57D2D /* Frameworks */,
 				FA4A0BB92D8B55B600A57D2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +98,13 @@
 				FA4A0BD22D8B55B700A57D2D /* Sat Game ChallengeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4A0BE62D8B562100A57D2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +127,8 @@
 			);
 			name = "Sat Game Challenge";
 			packageProductDependencies = (
+				FA4A0BE72D8B562100A57D2D /* FirebaseDatabase */,
+				FA4A0BE92D8B562800A57D2D /* FirebaseMessaging */,
 			);
 			productName = "Sat Game Challenge";
 			productReference = FA4A0BB82D8B55B600A57D2D /* Sat Game Challenge.app */;
@@ -195,6 +212,9 @@
 			);
 			mainGroup = FA4A0BAF2D8B55B600A57D2D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FA4A0BE52D8B561400A57D2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA4A0BB92D8B55B600A57D2D /* Products */;
 			projectDirPath = "";
@@ -558,6 +578,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA4A0BE52D8B561400A57D2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA4A0BE72D8B562100A57D2D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA4A0BE52D8B561400A57D2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FA4A0BE92D8B562800A57D2D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA4A0BE52D8B561400A57D2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA4A0BB02D8B55B600A57D2D /* Project object */;
 }

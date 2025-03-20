@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
-struct Sat_Game_ChallengeApp: App {
+struct TriviaGameApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
