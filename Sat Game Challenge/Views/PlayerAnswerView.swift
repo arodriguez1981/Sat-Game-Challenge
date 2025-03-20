@@ -25,7 +25,7 @@ struct PlayerAnswerView: View {
             Spacer()
             Text(result.isCorrect ? "✅" : "❌")
             Spacer()
-            Text("\(result.time, specifier: "%.2f")s")
+            Text(result.time.formattedTime())
                 .font(.subheadline)
                 .foregroundColor(.yellow)
         }

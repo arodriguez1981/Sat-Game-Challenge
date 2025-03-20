@@ -171,7 +171,6 @@ class GameService: NSObject, ObservableObject {
         guard let gameId = gameId, let correctAnswer = correctAnswer else { return }
         let isCorrect = answer == correctAnswer
         self.turnStarted = false
-        let timetaken = elapsedTimeInMilliseconds()
         stopTimer()
         let gameRef = dbRef.child("games").child(gameId)
         gameRef.child("roundResults").childByAutoId().setValue([
@@ -179,7 +178,7 @@ class GameService: NSObject, ObservableObject {
             "answer": answer,
             "correct": isCorrect,
             "round": self.currentRoundIndex,
-            "time": timetaken
+            "time": Int(elapsedTime)
         ])
         DispatchQueue.main.async {
             self.checkAnswersAndUpdateScores(gameId: gameId)

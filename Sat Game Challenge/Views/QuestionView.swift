@@ -19,7 +19,7 @@ struct QuestionView: View {
                 })
             }
             .padding(.horizontal)
-            TimerView(time: service.formattedTime())
+            TimerView(time: service.elapsedTime.formattedTime())
         }
     }
 }
